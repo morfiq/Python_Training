@@ -1,0 +1,18 @@
+Python installer download
+www.python.org
+Python libraries
+www.pypi.org 
+Alternative implementations:
+IronPython(Python running on .NET)
+https://ironpython.net/
+Jython(Python running on the Java Virtual Machine)
+https://www.jython.org/
+PyPy(A fastpython implementation with a JIT compiler)
+https://speed.pypy.org/
+
+
+Python visualize/debug code execution
+https://pythontutor.com/visualize.html#mode=edit
+
+Regular expression checker:
+https://regexr.com/

@@ -1,0 +1,46 @@
+
+.       - Any Character Except New Line
+\d      - Digit (0-9)
+\D      - Not a Digit (0-9)
+\w      - Word Character (a-z, A-Z, 0-9, _)
+\W      - Not a Word Character
+\s      - Whitespace (space, tab, newline)
+\S      - Not Whitespace (space, tab, newline)
+
+\b      - Word Boundary
+\B      - Not a Word Boundary
+^       - Beginning of a String
+$       - End of a String
+
+[]      - Matches Characters in brackets
+[^ ]    - Matches Characters NOT in brackets
+|       - Either Or
+( )     - Group
+
+Quantifiers:
+*       - 0 or More
++       - 1 or More
+?       - 0 or One
+{3}     - Exact Number
+{3,4}   - Range of Numbers (Minimum, Maximum)
+
+We can use character classes to search a group of characters
+1) [abc]  Either a OR b OR c
+2) [^abc]  Except a and b and c
+3) [a-z]  Any Lower case alphabet symbol
+4) [A-Z]  Any upper case alphabet symbol
+5) [a-zA-Z]  Any alphabet symbol
+6) [0-9]  Any digit from 0 to 9
+7) [a-zA-Z0-9]  Any alphanumeric character
+8) [^a-zA-Z0-9] Except alphanumeric characters(Special Characters)
+import re
+matcher=re.finditer("x","a7b@k9z")
+for match in matcher:
+    print(match.start(),"......",match.group())
+
+#### Sample Regexs ####
+
+[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
+
+
+
