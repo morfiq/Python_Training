@@ -1,0 +1,10 @@
+1. Program to accept radius as input and caluclate area of a circle?
+2. Python function to check if a number is palindrome or not ?
+3. Print multiplication table of 8 using recursion
+4. Write a function to check if a number is prime or not
+5. Write a program to print first n numbers in fibonacci series
+6. program to check if a number is even/odd
+7. Write a Program to extract each digit from an integer in the reverse order
+8. Print all prime numbers in a given range of numbers
+9. Given an input number print the range of number in below format, print "Fizz" of it is devisible by 3, "Buzz" if divisible by 5, "FizzBuss" if divisible by both 3 and 5, print number otherwise.
+1,2,Fizz, 4, Buzz,...,14, FizzBuzz, 16
