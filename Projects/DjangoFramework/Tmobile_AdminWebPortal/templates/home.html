@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- templates/home.html -->
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated %}
+  Hi {{ user.username }}!
+    Welcome to TIP Central Portal
+  <p><a href="{% url 'logout' %}">logout</a></p>
+{% else %}
+    Welcome to TIP Central Portal
+    Hi Guest!
+  <p>You are not logged in</p>
+  <a href="{% url 'login' %}">login</a>
+{% endif %}
+{% endblock %}
+
+</head>
+<body>
+
+</body>
+</html>

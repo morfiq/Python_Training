@@ -1,0 +1,36 @@
+﻿
+
+start jupyter notebook:
+>jupyter notebook
+
+
+Jupyter Shortcuts
+a - add a cell above
+b - add a cell below
+m - convert cell to markdown
+y - convert cell to code
+dd - delete cell
+Shift+Enter - run cell
+
+?? opens documentation
+print??
+
+Docstring:
+print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
+
+Prints the values to a stream, or to sys.stdout by default.
+Optional keyword arguments:
+file:  a file-like object (stream); defaults to the current sys.stdout.
+sep:   string inserted between values, default a space.
+end:   string appended after the last value, default a newline.
+flush: whether to forcibly flush the stream.
+Type:      builtin_function_or_method
+
+Save notebooks as .ipynb files
+Execute code by pressing Shift + Enter.
+
+Markdown Cells:
+
+Switch a cell to Markdown by selecting "Cell" > "Cell Type" > "Markdown" from the menu.
+Use Markdown syntax to format text (e.g., headers, lists, links).
+

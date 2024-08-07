@@ -1,0 +1,128 @@
+Check django version:
+
+./manage.py --version
+django.get_version()
+Terminal Commands:
+python -m django --version
+django-admin --version or django-admin.py version
+./manage.py --version or python manage.py --version
+pip freeze | grep Django
+python -c "import django; print(django.get_version())"
+python manage.py runserver --version
+Django Shell Commands:
+import django
+django.get_version() OR django.VERSION
+from django.utils import version
+version.get_version() OR version.get_complete_version()
+import pkg_resources
+pkg_resources.get_distribution('django').version
+
+
+HTML: Mark up language to give skeleton of web pages
+CSS: Cascading style sheet, used to handle presentation of HTML content
+JS: High level dynamic interpreted langauage, client side validation
+
+MVT: its a software design pattern
+View: Used to execute business logic, and interact with a model to carry data and renders a template
+Model: database table creation
+--> Website - HTML, CSS and JAVASCRIPT
+--> Django is the platform providing APIs to render pages in website, to save data to DB
+
+#start new django project
+
+>$django-admin startproject myAIweb
+
+>$cd myAIweb
+>$python manage.py runserver
+
+>$python manage.py s tartapp<app_label>
+
+#static pages/dynamic pages
+
+# INSTALLED_APPS in settings.py has few default apps
+ We need to create the tables in the database before we can use them. To do that, run the following command:
+>$python manage.py migrate
+
+>$python3 manage.py createsuperuser
+
+
+Top Applications built using Django:
+1. Instagram
+2. Youtube
+3. Spotify
+4. Disqus
+5. Dropbox
+
+
+#chnages to models.py then run below commands
+>$python manage.py makemigrations
+>$python manage.py migrate
+>$python manage.py shell
+C:\Users\mohrafiq\Documents\Personal\US_Pawan\DjangoProjects\rfqsite>python3 manage.py shell
+Python 3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:21:23) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> from products.models import Product
+>>> Products.objects.all()
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+NameError: name 'Products' is not defined
+>>> Product.objects.all()
+<QuerySet [<Product: Product object (1)>]>
+>>> Product.objects.create(title=)
+
+=====models.py
+from django.db import models
+
+# Create your models here.
+class Product(models.Model):
+    title = models.Charfield(max_len=120)
+    description = models.TextField(blank=True)
+    price = models.DecimalField(decimal_places=2, max_digits=100)
+    summary = models.TextField('hey thats coool!!')
+WSGI: Web Server Gateway Interface
+wsgi.py:
+
+
+print(request.user)
+
+return render(request,'home.html',{})
+settings.py TEMPLATES DIRS
+
+
+psql -U postgres
+postgres=# CREATE DATABASE django_psql;
+CREATE DATABASE
+postgres=# \q
+
+
+admin.py:
+from .models import Product
+admin.site.register(Product)
+
+pip3 install virtualenv
+pip3 freeze
+cd to/dev/directry
+mkdir newdir
+virtualenv .
+virtualenv -p python3 .
+
+
+CDN- content delivery networks:
+
+
+
+Django is a high-level web application framework based on Python. This framework is one of the best in the industry for rapid development, pragmatic design without compromising on features.
+
+Some of the technical features of Django include:
+
+Admin Interface
+Code Reusability
+CDN Integration
+Security Features
+ORM
+A huge number of third-party applications
+There are many features which Django community has been developing over the years and therefore it’s called “Batteries-Included” framework
+A content delivery network (CDN) is a third party that stores and serves static files. Amazon CloudFront, Akamai, and Rackspace Cloud Files are examples of CDNs
+
+
