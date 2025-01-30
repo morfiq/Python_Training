@@ -16,3 +16,7 @@ https://pythontutor.com/visualize.html#mode=edit
 
 Regular expression checker:
 https://regexr.com/
+
+
+Jupyter Notebook:
+https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/
