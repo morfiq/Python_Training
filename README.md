@@ -1,6 +1,6 @@
-# 🐍 Full Python Training Course
+# 🐍 Core Python Training
 
-Welcome to the **Full Python Training** repository! This course is designed to take learners from absolute beginners to confident Python developers, with a practical, real-world approach.
+Welcome to the **Core Python Training** repository! This course is designed to take learners from absolute beginners to confident Python developers, with a practical, real-world approach.
 
 ---
 
