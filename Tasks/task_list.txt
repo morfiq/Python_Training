@@ -9,3 +9,4 @@
 9. Given an input number print the range of number in below format, print "Fizz" of it is devisible by 3, "Buzz" if divisible by 5, "FizzBuss" if divisible by both 3 and 5, print number otherwise.
 1,2,Fizz, 4, Buzz,...,14, FizzBuzz, 16
 10. Print pyramid patterns of given length
+11. Python function to check if a string is palindrome or not ?
