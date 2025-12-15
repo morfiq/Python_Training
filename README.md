@@ -54,11 +54,6 @@ TBA
 - Jupyter Notebook (optional)
 - IDE (VS Code, PyCharm, etc.)
 
-
-
----
-
-## 🐰 Bunny (README Safe)
 ```
 (\_/)
 ( •_•)
