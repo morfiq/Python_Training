@@ -55,13 +55,16 @@ TBA
 - IDE (VS Code, PyCharm, etc.)
 
 
+
 ---
 
+## 🐰 Bunny (README Safe)
 ```markdown
-```
+```text
 (\_/)
 ( •_•)
  />🥕
+
 
 
 
