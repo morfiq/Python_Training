@@ -59,12 +59,11 @@ TBA
 ---
 
 ## 🐰 Bunny (README Safe)
-```markdown
-```text
+```
 (\_/)
 ( •_•)
  />🥕
-
+```
 
 
 
