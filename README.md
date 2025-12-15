@@ -54,8 +54,14 @@ TBA
 - Jupyter Notebook (optional)
 - IDE (VS Code, PyCharm, etc.)
 
+
+---
+
+```markdown
+```text
 (\_/)
 ( •_•)
  />🥕
+
 
 
